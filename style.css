@@ -1,34 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family:  "Dancing Script", cursive;
+    background-color: #d8a4a9;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    margin: 0;
+    margin:0 ;
   }
   
   .calculator {
     width: 320px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #702828;
+    border-radius:20px;
+    box-shadow: 10px 10px rgba(75, 45, 45, 0.2);
     overflow: hidden;
   }
   
   .display {
-    background-color: #222;
+    background-color: #c68484;
     color: #ffffff;
     text-align: right;
     padding: 10px 15px;
   }
+
   
   .display input {
-    width: 100%;
+    width: 99%;
     font-size: 1.8rem;
     border: none;
-    background: none;
+    background: none ;
     color: #fff;
     outline: none;
   }
@@ -36,20 +37,21 @@ body {
   .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1px;
-    background-color: #9c5656;
+    gap: 2px;
+    background-color: #9c5656
+    ;
   }
   
   button {
     padding: 15px;
-    font-size: 1.2rem;
-    background-color: #fff;
-    border: none;
+    font-size: 1,2rem;
+    background-color: #d0b5b5;
+    border-radius: 20px;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #eee;
+    background-color: #962252;
   }
   
   .zero {
@@ -57,17 +59,17 @@ body {
   }
   
   .history {
-    margin-top: 20px;
-    width: 320px;
-    background: #fff;
+    margin-top: 25px;
+    width: 290px;
+    background: #ff8989;
     padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(168, 93, 93, 0.5);
   }
   
   .history h2 {
     margin: 0 0 10px;
-    font-size: 1.2rem;
+    font-size: 0,5rem;
   }
   
   .history ul {
@@ -76,33 +78,33 @@ body {
     margin: 0;
     max-height: 150px;
     overflow-y: auto;
-    border: 1px solid #ddd;
+    border: 1px solid #eab8b8;
     border-radius: 4px;
   }
   
   .history ul li {
-    padding: 5px;
-    background: #f4f4f9;
-    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    background: #f0f0f0;
+    border-bottom: 5px solid #ffffff;
   }
   
   .history ul li:last-child {
-    border-bottom: none;
+    border-bottom: 20px;
   }
   
   .history button {
     margin-top: 10px;
     padding: 10px;
     width: 100%;
-    background: #ff5252;
-    color: white;
+    background: #fa4949;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   
   .history button:hover {
-    background: #ff7878;
+    background: #bb6a6a;
   }
   
   .history ul li {
@@ -110,7 +112,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background: #f4f4f9;
+    background: #ffd5bf;
     border-bottom: 1px solid #ddd;
   }
   
@@ -131,4 +133,7 @@ body {
   .history ul li button:hover {
     background: #ff7878;
   }
+
+
+  
   

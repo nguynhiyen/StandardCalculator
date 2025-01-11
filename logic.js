@@ -109,3 +109,4 @@ function clearHistory() {
   history = []; // Đặt lại mảng lịch sử
   updateHistoryDisplay(); // Cập nhật lại giao diện
 }
+
